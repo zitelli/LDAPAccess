@@ -7,12 +7,15 @@ Connections to the LDAP Server, remotely and in Docker, via port 10389 and 636 (
    There is a need to create the config.properties file in src/main/resources/ 
    with the values ​​of the variables below:
 
-*
+
 key      = ..code for decryption..
+
 password = ..server password..
+
 url      = ldaps:// ..ip server..
-userCpf  = ..information to be searched..  
-*
+
+userCpf  = ..information to be searched..
+
  
 ### GitHub reference of LDAP:
 
